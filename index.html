@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            poppins: ["Poppins", "sans-serif"],
+          },
+          extend: {
+            colors: {
+              darkBlue: "#323F73",
+              lightBlack: "#3C3C3C",
+              gray: "#95AFBA",
+              yellow: "#FFD888",
+            },
+            backgroundImage: {
+              gredienButtonColor:
+                "linear-gradient(90deg, #FF416C 0%, #FF4B2B 100%)",
+              greyBackground:
+                " linear-gradient(180deg, #EDEFF5 0%, #FAFAFA 124.4%)",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Performance</title>
+  </head>
+  <body class="font-poppins overflow-x-hidden">
+    <nav
+      class="pt-8 px-4 sm:pt-14 sm:px-[151px] flex items-center text-darkBlue absolute justify-between w-full"
+    >
+      <h1 class="text-[16px] sm:text-[22px] font-bold">Performance</h1>
+      <nav>
+        <ul
+          class="hidden sm:flex gap-14 text-[12px] tracking-[0.438px] items-center"
+        >
+          <li>Product</li>
+          <li>Academy</li>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li class="pl-12">Signin</li>
+          <li class="bg-darkBlue text-white rounded-lg px-6 py-4">Signup</li>
+        </ul>
+      </nav>
+      <img src="images/icons/burger.png" alt="" class="sm:hidden" />
+    </nav>
+    <section
+      class="flex sm:flex-row flex-col-reverse sm:pl-[115px] sm:gap-[70px]"
+    >
+      <div
+        class="text-center sm:text-start flex flex-col items-center sm:items-start mt-10 sm:mt-[240px] flex-1"
+      >
+        <h2
+          class="text-[22px] sm:text-[44px] w-[285px] sm:w-[537px] font-bold text-darkBlue"
+        >
+          Your Next Performance Management Platform
+        </h2>
+        <p
+          class="text-[13px] sm:text-[22px] text-gray mt-[18px] sm:mt-[30px] mb-8 sm:mb-16 w-[285px] sm:w-[525px]"
+        >
+          Fully Customizable performance management platform that suits your
+          culture. not the other way around
+        </p>
+        <div
+          class="flex flex-col sm:flex-row sm:w-[537px] text-[13px] font-medium leading-[14px] sm:h-16 gap-8 sm:gap-0 items-center"
+        >
+          <div
+            class="w-[285px] sm:w-[345px] flex gap-6 items-center bg-[#F5F8FA] sm:rounded-l-[15px] pl-8 h-14 sm:h-full"
+          >
+            <img src="images/icons/mail.png" alt="" class="w-5 h-4" />
+            <input
+              type="text"
+              placeholder="Add your email addresss"
+              class="w-full focus:outline-none placeholder:text-inputBlack bg-transparent"
+            />
+          </div>
+          <div
+            class="bg-gredienButtonColor text-white sm:rounded-r-[15px] flex items-center justify-center w-[177px] h-[52px] sm:w-[199px] sm:h-full cursor-pointer"
+          >
+            <p>Get Started for free</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-greyBackground sm:pl-[78px] sm:pb-[87px] sm:pt-[184px] flex justify-between pt-[110px]"
+      >
+        <img src="images/hero.png" alt="" class="hidden sm:block" />
+        <img src="images/landingleft.png" alt="" class="sm:hidden" />
+        <img src="images/landingright.png" alt="" class="sm:hidden" />
+      </div>
+    </section>
+    <div
+      class="flex gap-[41px] justify-center mt-[73px] sm:mt-[150px] sm:mb-[162px] mb-[91px]"
+    >
+      <img
+        src="images/logo1.png"
+        alt=""
+        class="border border-[#95AFBA] rounded-[15px] px-[76px] py-[18px] hidden sm:block"
+      />
+      <img
+        src="images/logo2.png"
+        alt=""
+        class="border border-[#95AFBA] rounded-[15px] px-[76px] py-[18px] hidden sm:block"
+      />
+      <img
+        src="images/logo3.png"
+        alt=""
+        class="border border-[#95AFBA] rounded-[15px] px-[76px] py-[18px]"
+      />
+      <img
+        src="images/logo4.png"
+        alt=""
+        class="border border-[#95AFBA] rounded-[15px] px-[76px] py-[18px] hidden sm:block"
+      />
+    </div>
+    <div class="sm:flex gap-[35px]">
+      <img src="images/prodgraphs1.png" alt="" class="hidden sm:block" />
+      <div class="text-center sm:text-start">
+        <div class="flex flex-col items-center sm:items-start">
+          <h3 class="text-[22px] sm:text-[30px] text-darkBlue font-bold">
+            Meet Our Products
+          </h3>
+          <p
+            class="text-[16px] sm:text-[16px] text-gray sm:leading-7 mt-5 w-[224px] sm:w-[364px]"
+          >
+            Our Products work Togather seamlessly to form talent science. start
+            with one or more.
+          </p>
+        </div>
+        <div class="flex mt-20 sm:gap-[98px] justify-center sm:justify-start">
+          <img src="images/goalmanagement.png" alt="" class="hidden sm:block" />
+          <div class="flex flex-col items-center sm:items-start">
+            <div
+              class="flex bg-[#FFD9CC] rounded w-fit gap-[11px] py-2 pl-[10px] pr-[15px] items-center mb-[10px] sm:mb-5"
+            >
+              <img src="images/icons/path.png" alt="path" class="h-3" />
+              <p class="text-[12px] leading-7 text-[#E95829]">Align</p>
+            </div>
+            <h4
+              class="relative text-[18px] sm:text-[24px] font-medium text-darkBlue before:absolute before:bg-yellow before:bottom-[-10px] before:w-[92px] before:h-1 before:left-[25%] sm:before:left-0"
+            >
+              Goal Management
+            </h4>
+
+            <p
+              class="text-[13px] sm:text-[16px] leading-7 text-gray mt-[34px] w-[224px] sm:w-[357px] text-start"
+            >
+              Our Products work Together seamlessly to form talent science.
+              start with one or more.
+            </p>
+            <div
+              class="flex gap-[27px] sm:gap-[78px] sm:mt-6 text-[13px] sm:text-[16px] text-darkBlue"
+            >
+              <div class="flex items-center gap-[13px]">
+                <span class="bg-[#FFD9CC] w-[8px] h-[8px] rounded"></span>
+                <p>Daily Track</p>
+              </div>
+              <div class="flex items-center gap-[13px]">
+                <span class="bg-[#FFD9CC] w-2 h-2 rounded"></span>
+                <p>Road Map</p>
+              </div>
+            </div>
+            <button
+              class="bg-yellow text-darkBlue text-[13px] sm:text-[16px] px-3 sm:px-6 py-2 sm:py-3 rounded mt-6 sm:mt-12"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="text-center sm:text-start flex sm:pl-[345px] justify-center mt-[96px] sm:mt-0"
+    >
+      <div class="flex flex-col items-center sm:items-start">
+        <div
+          class="flex bg-[#CCFFFC] rounded w-fit gap-[11px] py-2 pl-[10px] pr-[15px] items-center mb-[10px] sm:mb-5"
+        >
+          <img src="images/icons/remote.png" alt="" class="h-3" />
+          <p class="text-[12px] leading-7 text-[#23A9A1]">Remote</p>
+        </div>
+        <h4
+          class="relative text-[18px] sm:text-[24px] font-medium text-darkBlue before:absolute before:bg-yellow before:bottom-[-10px] before:w-[92px] before:h-1 before:left-[25%] sm:before:left-0"
+        >
+          Remote Tool
+        </h4>
+
+        <p
+          class="text-[13px] sm:text-[16px] leading-7 text-gray mt-[34px] w-[224px] sm:w-[357px] text-start"
+        >
+          Our Products work Togather seamlassly to form talent science. start
+          with one or more.
+        </p>
+        <div
+          class="flex gap-[27px] sm:mt-6 text-[13px] sm:text-[16px] text-darkBlue"
+        >
+          <div class="flex items-center gap-[13px]">
+            <span class="bg-[#FFD9CC] w-[8px] h-[8px] rounded"></span>
+            <p>Remote Access</p>
+          </div>
+          <div class="flex items-center gap-[13px]">
+            <span class="bg-[#FFD9CC] w-[8px] h-[8px] rounded"></span>
+            <p>Work Anytime</p>
+          </div>
+        </div>
+        <button
+          class="bg-yellow text-darkBlue text-[13px] sm:text-[16px] px-3 sm:px-6 py-2 sm:py-3 rounded mt-6 sm:mt-12"
+        >
+          Learn more
+        </button>
+      </div>
+      <img
+        src="images/remotetool.png"
+        alt="manaagement"
+        class="hidden sm:block"
+      />
+    </div>
+    <div
+      class="text-center sm:text-start flex justify-center mt-[96px] sm:gap-[75px] mb-[65px] sm:mb-0"
+    >
+      <img
+        src="images/performreview.png"
+        alt=""
+        class="hidden sm:block ml-10"
+      />
+      <div class="flex flex-col items-center sm:items-start">
+        <div
+          class="flex bg-[#FFD9CC] rounded w-fit gap-[11px] py-2 pl-[10px] pr-[15px] items-center mb-[10px] sm:mb-5"
+        >
+          <img src="images/icons/search.png" alt="" class="h-3" />
+          <span class="text-[12px] leading-7 text-[#E95829]">Review</span>
+        </div>
+        <h4
+          class="relative text-[18px] sm:text-[24px] font-medium text-darkBlue before:absolute before:bg-yellow before:bottom-[-10px] before:w-[92px] before:h-1 before:left-[25%] sm:before:left-0"
+        >
+          Performance Review
+        </h4>
+
+        <p
+          class="text-[13px] sm:text-[16px] leading-7 text-gray mt-[34px] w-[224px] sm:w-[357px] text-start"
+        >
+          Our Products work Togather seamlassly to form talent science. start
+          with one or more.
+        </p>
+        <div
+          class="flex gap-[27px] sm:mt-6 text-[13px] sm:text-[16px] text-darkBlue"
+        >
+          <div class="flex items-center gap-[13px]">
+            <span class="bg-[#FFD9CC] w-[8px] h-[8px] rounded"></span>
+            <p>Track Performance</p>
+          </div>
+          <div class="flex items-center gap-[13px]">
+            <span class="bg-[#FFD9CC] w-[8px] h-[8px] rounded"></span>
+            <p>Status Review</p>
+          </div>
+        </div>
+        <button
+          class="bg-yellow text-darkBlue text-[13px] sm:text-[16px] px-3 sm:px-6 py-2 sm:py-3 rounded mt-6 sm:mt-12"
+        >
+          Learn more
+        </button>
+      </div>
+    </div>
+    <div class="hidden sm:flex justify-center items-center">
+      <img
+        src="/images/peopelSection.png"
+        alt=""
+        class="w-[1137px] h-[480px] rounded-sm"
+      />
+    </div>
+    <section class="hidden sm:flex justify-between mt-[240px] mb-[227px]">
+      <div class="pl-[115px]">
+        <div class="flex flex-col items-center text-center mb-11">
+          <h3 class="text-[32px] text-darkBlue font-bold">
+            Frequently Asked Questions
+          </h3>
+          <p class="leading-7 text-[18px] text-gray w-[478px]">
+            Fully Customizable performance management platform that suits your
+            culture. not the other way around
+          </p>
+        </div>
+        <div class="flex gap-[73px] justify-center">
+          <div class="flex flex-col space-y-8 cursor-pointer">
+            <div class="flex gap-5 items-center">
+              <img src="images/icons/products.png" alt="" class="w-5 h-5" />
+              <p
+                class="text-[#323F73] text-[16px] leading-7 hover:text-[#23A9A1]"
+              >
+                Products
+              </p>
+            </div>
+            <div class="flex gap-5 items-center">
+              <img src="images/icons/bell.png" alt="" />
+              <p
+                class="text-[#323F73] text-[16px] leading-7 hover:text-[#23A9A1]"
+              >
+                Subscription
+              </p>
+            </div>
+            <div class="flex gap-5 items-center">
+              <img src="images/icons/avatar.png" alt="" />
+              <p
+                class="text-[#323F73] text-[16px] leading-7 hover:text-[#23A9A1]"
+              >
+                Customer
+              </p>
+            </div>
+            <div class="flex gap-5 items-center">
+              <img src="images/icons/star.png" alt="" />
+              <p
+                class="text-[#323F73] text-[16px] leading-7 hover:text-[#23A9A1]"
+              >
+                Data Planas
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col space-y-10">
+            <div
+              class="relative before:absolute before:-left-[28px] before:w-1 before:h-full before:bg-yellow"
+            >
+              <p class="text-[16px] text-darkBlue leading-7 mb-4">
+                Customizable performance management platform
+              </p>
+              <p class="text-[16px] text-gray leading-7 w-[569px]">
+                Fully Customizable performance management platform that suits
+                your culture. not the other way around
+              </p>
+            </div>
+            <div
+              class="relative before:absolute before:-left-[28px] before:w-1 before:h-full before:bg-yellow"
+            >
+              <p class="text-[16px] text-darkBlue leading-7 mb-4">
+                Customizable performance management?
+              </p>
+              <p class="text-[16px] text-gray leading-7 w-[569px]">
+                Fully Customizable performance management platform that suits
+                not the other way around Fully Customizable
+              </p>
+            </div>
+            <div
+              class="relative before:absolute before:-left-[28px] before:w-1 before:h-full before:bg-yellow"
+            >
+              <p class="text-[16px] text-darkBlue leading-7 mb-4">
+                Customizable performance management platform
+              </p>
+              <p class="text-[16px] text-gray leading-7 w-[569px]">
+                performance management platform that suits your culture. not the
+                other way around Fully Customizable performance management
+                platform that
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/questions.png" alt="" />
+    </section>
+    <div class="hidden sm:flex justify-center">
+      <img src="/images/boostSection.png" alt="" class="w-[1137px] h-[560px]" />
+    </div>
+    <div class="hidden sm:flex gap-[148px] justify-center mt-[220px]">
+      <div class="mt-6">
+        <h4 class="text-[32px] text-darkBlue font-bold mb-2.5">
+          Download Performance <br />Management book for free.
+        </h4>
+        <p class="text-gray text-[18px] leading-7 mb-12">
+          Fully Customizable performance <br />management platform that suits
+          your <br />culture. not the other way around
+        </p>
+        <div
+          class="flex flex-row w-[537px] font-medium leading-[14px] h-16 gap-0 items-center"
+        >
+          <div
+            class="w-[345px] flex gap-6 items-center bg-[#F5F8FA] rounded-l-[15px] pl-8 h-full"
+          >
+            <img src="images/icons/mail.png" alt="" class="w-5 h-4" />
+            <input
+              type="text"
+              placeholder="Add your email addresss"
+              class="w-full focus:outline-none placeholder:text-inputBlack bg-transparent"
+            />
+          </div>
+          <div
+            class="bg-gredienButtonColor text-white rounded-r-[15px] flex items-center justify-center h-[52px] w-[199px] h-full cursor-pointer"
+          >
+            <p>Download For Free</p>
+          </div>
+        </div>
+        <p class="text-gray text-[18px] leading-7 mt-9">
+          Everyone gets something special. Sign up to be <br />everyone. :P
+        </p>
+      </div>
+      <img src="images/book.png" alt="" />
+    </div>
+  </body>
+</html>
